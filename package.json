@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "start": "concurrently \"python src/Backend/api.py\" \"npm run dev\"",
-    "initiate": "python src/Backend/project_init.py",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

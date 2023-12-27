@@ -1,10 +1,10 @@
 # Stage 1: Build frontend
 FROM node:14 AS frontend
 WORKDIR /app
-COPY package.json yarn.lock ./
-RUN yarn install
+COPY package.json
+RUN npm install
 COPY . .
-RUN yarn build
+RUN npm build
 
 # Stage 2: Build backend
 FROM python:3.10.11 AS backend
