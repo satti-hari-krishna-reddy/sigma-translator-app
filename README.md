@@ -31,8 +31,6 @@ Ensure you have the following prerequisites installed:
    cd sigma-translator-app
 3. **Install dependencies:**
    npm install
-4. **Run the initiation script:**
-   npm run initiate
 
 ## Usage
 Run the Sigma Translator App with the following command:
